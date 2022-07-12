@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <main>
+        <div class="bg-small">
+            <Label class="logo"><img src="./img/logo (1).png" alt="" width="130px"></Label>
+            <div class="hov">
+                <span><i class="fa-solid fa-border-all"></i></span>
+                <a href="">Dashboard</a> 
+            </div>
+
+            <div class="hov  ">
+                <span><i class="fa-solid fa-chart-pie"></i></span>
+                <a href="active" class="">Analytics</a>
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-wallet"></i></span>
+                <a href="">Sales</a>
+            </div>
+             
+            
+            <div class="hov">
+                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                <a href="">Products</a>
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-suitcase"></i></span>
+                <a href="">Customer</a>
+            </div class="hov">
+            
+            <div class="hov">
+                <span><i class="fa-solid fa-traffic-light"></i></span>
+                <a href="">Traffic</a>
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-file-lines"></i></span>
+                <a href="">Reports</a>
+                <span><img src="./img/17.png" alt=""></span>
+            </div>
+            
+            <div class="hov">
+                <span><img src="" alt=""></span>
+                <a href="">NOTIFICATIONS</a> 
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-user"></i></span>
+                <a href="">Profile</a> 
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-inbox"></i></span>
+                <a href="">Inbox</a> 
+                <span><img src="./img/14.png" alt=""></span>
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-folder-open"></i></span>
+                <a href="">Accounting</a> 
+            </div>
+
+            <div class="hov">
+                <span><i class="fa-solid fa-gear"></i></span>
+                <a href="">Settings</a> 
+            </div>
+            <div class="footer">
+                <p><span id="dr">&copy; 2020 Dashcom</span> 
+                    <br>Beautiful UI Components, designed handcrafted with eye to the detail.</p>
+            </div>
+        </div>
+
+        <div class="bg-big">
+           <div class="head">
+             <h1>
+                 <span id="big-txt">Welcome to your Analytics</span><br>
+                 <span id="small-txt">12:15 PM at 19TH November 2020</span>
+             </h1>
+              <div>
+                <div class="small-img">
+                  <input type="text" placeholder="search">
+                  <select name="" id="adjust">
+                    <option value="">This Year</option>
+                    <option value="date">January</option>
+                    <option value="date">february</option>
+                    <option value="date">March</option>
+                    <option value="date">April</option>
+                  </select>
+                 
+                    <span><img src="./img/notification.png" alt="" width="40px"></span>
+                    <span><img src="./img/language.png" alt="" width="40px"></span>
+                    <span><img src="./img/Ellipse 1.png" alt="" width="40px"></span>
+                  </div>
+              </div>
+           </div>
+           <div class="payouts">
+            <img src="./img/current balance.png" alt="" width="330px">
+            <img src="./img/total earnings.png" alt="" width="330px">
+            <img src="./img/total payouts.png" alt="" width="330px">
+          </div>
+
+          <div class="diff-size">
+            <div class="big-1">
+               <div class="Earn">
+                  <div class="payment1">
+                    <h2>Earnings Summary</h2>
+                    <div class="money1">
+                      <div class="income">
+                          <span id="grey">
+                          </span>
+                          <p>Earnings</p>
+                      </div>
+  
+                      <div class="expenses">
+                          <span id="blue">
+  
+                          </span>
+                          <p>Payments</p>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="button-box">
+                     <div id="btn"></div>
+                     <button type="button" class="toggle-btn" id="Daily1" onclick="Daily()">Daily</button>
+                     <button type="button" class="toggle-btn" id="Monthly1" onclick="Monthly()">Monthly</button>
+                     <button type="button" class="toggle-btn" id="yearly1" onclick="Yearly()">Yearly</button>
+                   </div>
+               </div>
+
+               <div class="graph">
+                  <span id="traffic"><p>40k30k25k20k15k10k5k0k</p></span>
+                  <img src="./img/horizontal lines.png" alt="" width="650px">
+                  <img src="./img/graphic off.png" alt="" width="650px">
+                  <img src="./img/graphic.png" alt="" width="650px">
+               </div>
+               <div class="month">
+                <p>Jan</p>
+                <p>Feb</p>
+                <p>Mar</p>
+                <p>April</p>
+                <p>May</p>
+                <p>Jun</p>
+                <p>Jul</p>
+                <p>Aug</p>
+                <p>Sept</p>
+                <p>Oct</p>
+                <p>Nov</p>
+                <p>Dec</p>
+               </div>
+            </div>
+            <div class="small1">
+                <p>Monthly Reports</p>
+                <img src="./img/chart.png" alt="" width="180px">
+                <div class="dots">
+                    <p>Transaction Payouts Reports</p>
+                    <img src="./img/dot Kopie.png" alt="">
+                    <img src="./img/dot Kopie 2.png" alt="">
+                    <img src="./img/dot Kopie 3.png" alt="">
+                    <img src="./img/dot Kopie 4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bg2">
+            <div class="title">
+                <h4>Popular Products</h4>
+                <p>...</p>
+            </div>
+
+            <div class="Container">
+                <div class="product">
+                    <p>Images</p>
+                    <img src="./img/product image.png" alt="">
+                    <img src="./img/product image (1).png" alt="">
+                    <img src="./img/product image (2).png" alt="">
+                    <img src="./img/product image (3).png" alt="">
+                </div>
+
+                <div class="Product2">
+                    <p>Product Name</p>
+                    <p>UI Dashboard Elements<br><span id="sub">#124436</span></p>
+                    <p>Creative Designer eBook<br><span id="sub">#124510</span></p>
+                    <p>3D Website Mockup<br><span id="sub">#144750</span></p>
+                    <p>Isometric Elements<br><span id="sub">#232190</span></p>
+                </div>
+
+                <div class="Product3">
+                    <p>Date</p>
+                    <p>11/10/2020</p>
+                    <p>11/10/2020</p>
+                    <p>11/10/2020</p>
+                    <p>11/10/2020</p>
+
+                </div>
+
+                <div class="Product4">
+                    <p>Price</p>
+                    <p>$98.00</p>
+                    <p>$29.00</p>
+                    <p>$59.00</p>
+                    <p>$79.00</p>
+
+                </div>
+
+                <div class="Product5">
+                    <p>Author</p>
+                    <p>James Dean</p>
+                    <p>Kelvin Hardt</p>
+                    <p>Katje Prince</p>
+                    <p>James Dean</p>
+
+                </div>
+
+                <div class="Product6">
+                    <p>Status</p>
+                    <p class="Bars1">Available</p>
+                    <p class="Bars2">Darft</p>
+                    <p class="Bars2">Darft</p>
+                    <p class="Bars1">Available</p>
+
+                </div>
+                <div class="product7">
+                    <p>Options</p>
+                    <select>
+                    <option>Default</option>
+                    <option>Hello</option>
+                    <option>Hi</option>
+                    <option>Hey</option>
+                    </select>
+
+                    <select>
+                    <option>Default</option>
+                    <option>Hello</option>
+                    <option>Hi</option>
+                    <option>Hey</option>
+                    </select>
+
+                   <select>
+                    <option>Default</option>
+                    <option>Hello</option>
+                    <option>Hi</option>
+                    <option>Hey</option>
+                   </select>
+
+                   <select>
+                    <option>Default</option>
+                    <option>Hello</option>
+                    <option>Hi</option>
+                    <option>Hey</option>
+                   </select>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script>
+        var x = document.getElementById("Daily1");
+        var y = document.getElementById("Monthly1");
+        var z = document.getElementById("Yearly1");
+        var a = document.getElementById("btn");
+
+        function Monthly1() {
+            x.style.left = "-800px"
+            y.style.left = "50px"
+            z.style.left = "80px"
+            a.style.left = "100px"
+        }
+    </script>
+</body>
+</html>
