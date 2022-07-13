@@ -491,6 +491,9 @@ select{
     .logo{
         padding: 0px;
     }
+    .logo img{
+        width: 89px;
+    }
     main{
         display: flex;
         justify-content: space-between;
@@ -519,12 +522,18 @@ select{
         right: 0%;
         width: 80%;
     }
+    .head h1{
+        text-align: center;
+    }
     .payouts{
         
         text-align: center;
     }
     .payouts img{
         width: 200px;
+        height: 80px;
+        text-align: center;
+        padding-right: 20px;
         
         
     }
@@ -577,7 +586,7 @@ select{
     }
 
     .graph img{
-       width: 335px;
+       width: 300px;
     }
 
     .month p{
@@ -590,7 +599,7 @@ select{
     }
 
     .small1{
-        width: 100%;
+        width: 80%;
     }
 
 }
